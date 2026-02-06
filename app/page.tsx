@@ -207,9 +207,10 @@ export default function Home() {
             <GlowingCard
               icon={Terminal}
               title="Codementor AI"
-              desc="FastAPI + LLM assistant that helps users solve LeetCode problems with explanations."
+              desc="Agent-style AI system that reviews LeetCode solutions, detects mistake patterns, and builds a personalized DSA revision plan using async evaluation, RAG-based analysis, and learning analytics (spaced-repetition heatmaps, improvement graphs)."
               link="https://github.com/tanishkgupta-18/codementor-ai"
-              tags={["FastAPI", "Python", "LLM", "Education"]}
+              tags={["FastAPI", "Python", "LLM", "RAG", "Celery", "RabbitMQ", "MongoDB", "Redis", "Docker", "Prometheus", "Grafana", "EdTech"]}
+
             />
 
             <GlowingCard
