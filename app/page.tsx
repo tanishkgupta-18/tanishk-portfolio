@@ -187,7 +187,7 @@ export default function Home() {
               className="px-3.5 py-1.5 rounded-md text-amber-400 hover:text-amber-300 hover:bg-amber-500/10 transition-colors flex items-center gap-1.5 font-medium"
             >
               <BookOpen className="h-3.5 w-3.5" />
-              Writing (DevHum)
+              DevHum (Python Blog)
             </a>
             <a
               href="#achievements"
@@ -269,7 +269,7 @@ export default function Home() {
               className="block px-3 py-2 rounded-lg text-amber-400 hover:bg-amber-500/10 text-sm font-medium flex items-center gap-2"
             >
               <BookOpen className="h-4 w-4" />
-              Writing & DevHum
+              DevHum (Python Tutorials)
             </a>
             <a
               href="#achievements"
@@ -345,7 +345,7 @@ export default function Home() {
 
             {/* Concise Value Proposition */}
             <p className="text-base sm:text-lg text-stone-400 leading-relaxed max-w-3xl mb-8">
-              Focused on engineering production-grade software with <strong className="text-stone-200 font-medium">Python (FastAPI)</strong>, <strong className="text-stone-200 font-medium">Go</strong>, and <strong className="text-stone-200 font-medium">Next.js</strong>. Experienced in designing asynchronous task pipelines with message brokers (Celery, RabbitMQ), RAG retrieval workflows, in-memory ML inference, and observable full-stack SaaS platforms.
+              Focused on engineering production-grade software with <strong className="text-stone-200 font-medium">Python (FastAPI)</strong>, <strong className="text-stone-200 font-medium">TypeScript</strong>, and <strong className="text-stone-200 font-medium">Next.js</strong>. Experienced in designing asynchronous task pipelines with message brokers (Celery, RabbitMQ), RAG retrieval workflows, in-memory ML inference, and observable full-stack SaaS platforms.
             </p>
 
             {/* Action Buttons */}
@@ -402,7 +402,7 @@ export default function Home() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 p-4 rounded-xl bg-stone-900/50 border border-stone-800/90 backdrop-blur-sm">
               <div className="border-r border-stone-800/70 last:border-0 pr-2">
                 <div className="text-[11px] font-mono uppercase tracking-wider text-stone-500">Core Languages</div>
-                <div className="text-sm font-semibold text-stone-200 mt-0.5">Python, Go, TypeScript</div>
+                <div className="text-sm font-semibold text-stone-200 mt-0.5">Python, TypeScript, SQL</div>
               </div>
               <div className="border-r border-stone-800/70 sm:border-r last:border-0 pr-2">
                 <div className="text-[11px] font-mono uppercase tracking-wider text-stone-500">Backend Systems</div>
@@ -413,10 +413,10 @@ export default function Home() {
                 <div className="text-sm font-semibold text-stone-200 mt-0.5">RAG, LLMs, XGBoost, YOLO</div>
               </div>
               <div>
-                <div className="text-[11px] font-mono uppercase tracking-wider text-stone-500">Publication</div>
+                <div className="text-[11px] font-mono uppercase tracking-wider text-stone-500">Python Blog</div>
                 <div className="text-sm font-semibold text-amber-400 mt-0.5 flex items-center gap-1">
                   <a href="https://devhum.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline inline-flex items-center gap-1">
-                    DevHum Blog <ArrowUpRight className="h-3 w-3" />
+                    DevHum Website <ArrowUpRight className="h-3 w-3" />
                   </a>
                 </div>
               </div>
@@ -623,7 +623,7 @@ export default function Home() {
                   Engineering Projects
                 </h2>
                 <p className="text-stone-400 text-base max-w-xl mt-1.5">
-                  Production systems across Computer Vision, Healthcare ML, AI SaaS, and Go microservices.
+                  Production systems across Computer Vision, Healthcare ML, AI SaaS, and distributed backends.
                 </p>
               </div>
 
@@ -750,13 +750,13 @@ export default function Home() {
             <div className="mb-10">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/25 text-amber-400 text-xs font-mono mb-3">
                 <BookOpen className="h-3.5 w-3.5" />
-                WRITING & KNOWLEDGE SHARING
+                PYTHON BLOGS & TUTORIALS
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-stone-100 tracking-tight">
-                DevHum Publication
+                DevHum — Python Tutorials & Notes
               </h2>
               <p className="text-stone-400 text-base max-w-2xl mt-1.5">
-                Technical articles, architectural breakdowns, and engineering insights published on my platform.
+                A dedicated blog platform offering structured tutorials and notes covering Python from beginner basics up to Object-Oriented Programming (OOP).
               </p>
             </div>
 
@@ -768,47 +768,47 @@ export default function Home() {
                 <div className="lg:col-span-8 space-y-4">
                   <div className="flex flex-wrap items-center gap-2.5">
                     <span className="px-3 py-1 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs font-mono font-medium">
-                      Featured Publication
+                      Python Tutorial Website
                     </span>
                     <span className="text-xs font-mono text-stone-400">devhum.vercel.app</span>
                   </div>
 
                   <h3 className="text-2xl sm:text-3xl font-bold text-stone-100">
-                    DevHum — Practical Engineering & AI Systems Publication
+                    DevHum — Python Learning Guides from Basics to OOP
                   </h3>
 
                   <p className="text-stone-300 text-sm sm:text-base leading-relaxed">
-                    I run <strong className="text-amber-300 font-semibold">DevHum</strong> (Developer Human), an engineering publication where I break down complex distributed backend architectures, RAG design patterns, LLM evaluation pipelines, and real-world system engineering decisions.
+                    <strong className="text-amber-300 font-semibold">DevHum</strong> is my personal blog platform featuring comprehensive Python tutorials and clear, structured notes. It is built as a practical learning resource that walks readers through Python step-by-step — starting from foundational programming concepts up through advanced Object-Oriented Programming (OOP).
                   </p>
 
                   <div className="grid sm:grid-cols-3 gap-3 pt-2">
                     <div className="p-3.5 rounded-xl bg-stone-950/70 border border-stone-800/80">
                       <div className="text-amber-400 font-semibold text-xs mb-1 flex items-center gap-1.5">
-                        <Server className="h-3.5 w-3.5" />
-                        Backend Systems
+                        <Terminal className="h-3.5 w-3.5" />
+                        Python Fundamentals
                       </div>
                       <p className="text-stone-400 text-xs leading-normal">
-                        Deep dives on message brokers (Celery, RabbitMQ), caching, and async API patterns.
+                        Syntax, variables, data types, conditional flow, loops, and core language mechanics.
                       </p>
                     </div>
 
                     <div className="p-3.5 rounded-xl bg-stone-950/70 border border-stone-800/80">
                       <div className="text-amber-400 font-semibold text-xs mb-1 flex items-center gap-1.5">
-                        <Cpu className="h-3.5 w-3.5" />
-                        GenAI & RAG
+                        <Layers className="h-3.5 w-3.5" />
+                        Data Structures
                       </div>
                       <p className="text-stone-400 text-xs leading-normal">
-                        Architecting vector search, agent loops, and cost-effective LLM evaluation pipelines.
+                        Working with lists, tuples, dictionaries, sets, string methods, and built-in functions.
                       </p>
                     </div>
 
                     <div className="p-3.5 rounded-xl bg-stone-950/70 border border-stone-800/80">
                       <div className="text-amber-400 font-semibold text-xs mb-1 flex items-center gap-1.5">
-                        <Activity className="h-3.5 w-3.5" />
-                        System Reliability
+                        <Code2 className="h-3.5 w-3.5" />
+                        OOP in Python
                       </div>
                       <p className="text-stone-400 text-xs leading-normal">
-                        Monitoring with Prometheus/Grafana, containerized workflows, and low-latency APIs.
+                        Classes, objects, inheritance, encapsulation, polymorphism, and structured code examples.
                       </p>
                     </div>
                   </div>
@@ -816,10 +816,10 @@ export default function Home() {
 
                 <div className="lg:col-span-4 flex flex-col justify-center items-start lg:items-end gap-4 p-6 rounded-xl bg-stone-950/80 border border-stone-800">
                   <div className="w-full text-left">
-                    <div className="text-xs font-mono uppercase tracking-wider text-stone-500">Live Website</div>
+                    <div className="text-xs font-mono uppercase tracking-wider text-stone-500">Website URL</div>
                     <div className="text-lg font-bold text-amber-300 mt-0.5">https://devhum.vercel.app</div>
                     <p className="text-stone-400 text-xs mt-1 leading-normal">
-                      Read technical articles, system tutorials, and developer case studies.
+                      Explore free Python tutorials, code snippets, and study notes.
                     </p>
                   </div>
 
@@ -903,13 +903,13 @@ export default function Home() {
                     "Python",
                     "FastAPI",
                     "Flask",
-                    "Go (Golang)",
                     "Node.js",
                     "Express.js",
                     "Celery",
                     "RabbitMQ",
                     "RESTful APIs",
-                    "Async Concurrency"
+                    "Async Concurrency",
+                    "SQL"
                   ].map((skill) => (
                     <span
                       key={skill}
@@ -1098,13 +1098,13 @@ export default function Home() {
               {/* Highlight 4 */}
               <div className="p-6 rounded-2xl bg-stone-900/50 border border-stone-800/90 hover:border-amber-500/40 transition-colors">
                 <div className="text-2xl font-mono font-extrabold text-amber-400 mb-2">
-                  DevHum Founder
+                  Python Tutorials
                 </div>
                 <div className="text-sm font-bold text-stone-200 mb-1.5">
-                  Technical Knowledge Platform
+                  DevHum Blog & Notes
                 </div>
                 <p className="text-stone-400 text-xs leading-relaxed">
-                  Creator and author at DevHum (devhum.vercel.app), publishing deep-dive analyses on software design, distributed backends, and AI engineering.
+                  Creator and author at DevHum (devhum.vercel.app), a dedicated Python tutorial blog with structured learning notes covering foundational concepts to OOP in Python.
                 </p>
               </div>
             </div>
@@ -1212,7 +1212,7 @@ export default function Home() {
                     >
                       <span className="flex items-center gap-2 font-medium">
                         <BookOpen className="h-4 w-4 text-amber-400" />
-                        DevHum Publication Platform
+                        DevHum — Python Blogs & Tutorials
                       </span>
                       <ArrowUpRight className="h-3.5 w-3.5 opacity-60" />
                     </a>
