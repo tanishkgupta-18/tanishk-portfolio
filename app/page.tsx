@@ -212,7 +212,13 @@ export default function Home() {
               tags={["FastAPI", "Python", "LLM", "RAG", "Celery", "RabbitMQ", "MongoDB", "Redis", "Docker", "Prometheus", "Grafana", "EdTech"]}
 
             />
-
+            <GlowingCard
+              icon={Zap}
+              title="SentinelAI"
+              desc="Full-stack real-time transaction scoring platform featuring an in-memory ML inference pipeline, regulatory-compliant feature attribution (GDPR-ready), continuous synthetic fraud simulation, and live operational monitoring with risk heatmaps and single-trip SQL analytics."
+              link="https://github.com/tanishkgupta-18/sentinel-ai"
+              tags={["FastAPI", "Python", "XGBoost", "SHAP", "PostgreSQL", "React", "Vite", "Chakra UI", "Docker"]}
+            />
             <GlowingCard
               icon={Cpu}
               title="Framely – AI Image Editing SaaS"
@@ -278,7 +284,7 @@ export default function Home() {
                   Backend Engineering
                 </h3>
                 <div className="flex flex-wrap gap-2">
-                  {["Node.js", "Express.js", "MongoDB", "SQL", "REST APIs", "Go", "Python"].map((skill) => (
+                  {["Node.js", "Express.js", "MongoDB", "SQL", "REST APIs", "Python"].map((skill) => (
                     <Badge key={skill} className="bg-slate-800/80 text-slate-300 border-slate-700 font-mono">
                       {skill}
                     </Badge>
@@ -296,7 +302,7 @@ export default function Home() {
                   Cloud & DevOps
                 </h3>
                 <div className="flex flex-wrap gap-2">
-                  {["Docker", "AWS", "Git", "GitHub", "Next.js"].map((skill) => (
+                  {["Docker", "Git", "GitHub", "Next.js"].map((skill) => (
                     <Badge key={skill} className="bg-slate-800/80 text-slate-300 border-slate-700 font-mono">
                       {skill}
                     </Badge>
